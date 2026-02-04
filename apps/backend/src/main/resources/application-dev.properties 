@@ -1,0 +1,7 @@
+jwt.secret=pingchat-secret-key-change-this-in-production-environment-must-be-at-least-256-bits-long
+jwt.expiration=86400000
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/devdb
+spring.datasource.username=dev
+spring.datasource.password=devpass
+spring.jpa.hibernate.ddl-auto=update
